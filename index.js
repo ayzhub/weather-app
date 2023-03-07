@@ -6,7 +6,7 @@ const error404 = document.querySelector('.not-found');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '728b0ee6df5687559812bd3169ad77b7';
+    const APIKey = 'cff0d7bfffb1906152ab95c533fd19ae';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
@@ -70,8 +70,6 @@ search.addEventListener('click', () => {
             weatherDetails.classList.add('fadeIn');
             container.style.height = '590px';
 
-
         });
-
-
+    
 });
